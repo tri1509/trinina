@@ -39,7 +39,6 @@
   </head>
 
   <body>
-    <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
       <div class="container d-flex align-items-center justify-content-between">
         <a
@@ -60,16 +59,12 @@
             <li><a href="#contact">Kết nối</a></li>
           </ul>
         </nav>
-        <!-- .navbar -->
-
         <a class="btn-book-a-table" href="#lien-he">Liên hệ</a>
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       </div>
     </header>
-    <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
     <section id="home" class="hero d-flex align-items-center section-bg">
       <div class="container">
         <div class="row justify-content-between gy-5">
@@ -104,10 +99,8 @@
         </div>
       </div>
     </section>
-    <!-- End Hero Section -->
 
     <main id="main">
-      <!-- ======= About Section ======= -->
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
@@ -117,7 +110,7 @@
 
           <div class="row gy-4">
             <div
-              class="col-lg-7 position-relative about-img"
+              class="col-lg-7 position-relative about-img zoom_hinh"
               style="
                 background-image: url(assets/img/ava.jpg);
                 background-size: cover;
@@ -174,9 +167,7 @@
           </div>
         </div>
       </section>
-      <!-- End About Section -->
 
-      <!-- ======= Why Us Section ======= -->
       <section id="why-us" class="why-us section-bg">
         <div class="container" data-aos="fade-up">
           <div class="row gy-4">
@@ -246,9 +237,7 @@
           </div>
         </div>
       </section>
-      <!-- End Why Us Section -->
 
-      <!-- ======= Stats Counter Section ======= -->
       <section id="stats-counter" class="stats-counter">
         <div class="container" data-aos="zoom-out">
           <div class="row gy-4">
@@ -306,9 +295,7 @@
           </div>
         </div>
       </section>
-      <!-- End Stats Counter Section -->
 
-      <!-- ======= Menu Section ======= -->
       <section id="web" class="menu">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
@@ -316,14 +303,19 @@
             <p>Xem qua <span>các web mẫu</span></p>
           </div>
 
-          <ul
-            class="nav nav-tabs d-flex justify-content-center"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <ul class="nav nav-tabs d-flex justify-content-center">
             <li class="nav-item">
               <a
                 class="nav-link active show"
+                data-bs-toggle="tab"
+                data-bs-target="#menu-tong"
+              >
+                <h4>Tất cả</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link show"
                 data-bs-toggle="tab"
                 data-bs-target="#menu-lunch"
               >
@@ -336,31 +328,148 @@
                 data-bs-toggle="tab"
                 data-bs-target="#menu-starters"
               >
-                <h4>Du lịch</h4>
+                <h4>Xây dựng</h4>
               </a>
             </li>
-            <!-- End tab nav item -->
-
             <li class="nav-item">
               <a
                 class="nav-link"
                 data-bs-toggle="tab"
                 data-bs-target="#menu-breakfast"
               >
-                <h4>Sofa</h4> </a
-              ><!-- End tab nav item -->
+                <h4>Khác</h4>
+              </a>
             </li>
           </ul>
-
           <div class="tab-content">
-            <div class="tab-pane fade active show" id="menu-lunch">
+            <div class="tab-pane fade active show" id="menu-tong">
+              <div class="tab-header text-center">
+                <h3>Tất cả</h3>
+              </div>
+              <div id="project">
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/garage_huynhquoctien.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Garage Ô tô</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/binhgiunhiet_dbvietnam.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Bình giữ nhiệt</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/nongsan_phamthikieuloan.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Nông sản</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/thuongmaidientu_cungduckhoa.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Thương mại điện tử</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/vanphongcongchuc_lebaolong.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Văn phòng công chứng</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img src="assets/img/menu/noithat_hpt.png" alt="" />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Nội thất HPT</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/tramhuong_nguyenngocthienphuoc.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Trầm hương</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/xaydung_truongvanlua.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Xây dựng LUAHOME</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/xaydung_tranvanthu.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Xây dựng</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show" id="menu-lunch">
               <div class="tab-header text-center">
                 <p>Lĩnh vực</p>
                 <h3>Nội thất</h3>
               </div>
-
               <div id="project">
-                <div class="items animate__animated animate__zoomIn">
+                <div class="items">
                   <div class="project-desc">
                     <div class="project-img hover_sang2">
                       <img
@@ -373,7 +482,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="items animate__animated animate__zoomIn">
+                <div class="items">
                   <div class="project-desc">
                     <div class="project-img hover_sang2">
                       <img
@@ -386,12 +495,11 @@
                     </div>
                   </div>
                 </div>
-
-                <div class="items animate__animated animate__zoomIn">
+                <div class="items">
                   <div class="project-desc">
                     <div class="project-img hover_sang2">
                       <img
-                        src="assets/img/menu/demo - Võ Đình Dương.png"
+                        src="assets/img/menu/demo - Võ Đình Dương_2.png"
                         alt=""
                       />
                     </div>
@@ -405,35 +513,57 @@
             <div class="tab-pane fade show" id="menu-starters">
               <div class="tab-header text-center">
                 <p>Lĩnh vực</p>
-                <h3>Du lịch</h3>
+                <h3>Xây dựng</h3>
               </div>
-
               <div id="project">
-                <div class="items animate__animated animate__zoomIn">
+                <div class="items">
                   <div class="project-desc">
                     <div class="project-img hover_sang2">
                       <img
-                        src="assets/img/menu/demo - Nguyễn Ngọc Hưng.png"
+                        src="assets/img/menu/xaydung_truongvanlua.jpg"
                         alt=""
                       />
                     </div>
                     <div class="project-htitle">
-                      <h3>Nguyễn Ngọc Hưng</h3>
+                      <h3>Trương văn lụa</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/xaydung_tranvanthu.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Trần Văn Thứ</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/xaydung_nguyenthanhnhut.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Nhựt nguyễn</h3>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- End Starter Menu Content -->
-
             <div class="tab-pane fade" id="menu-breakfast">
               <div class="tab-header text-center">
                 <p>Lĩnh vực</p>
-                <h3>Sofa</h3>
+                <h3>Khác</h3>
               </div>
-
               <div id="project">
-                <div class="items animate__animated animate__zoomIn">
+                <div class="items">
                   <div class="project-desc">
                     <div class="project-img hover_sang2">
                       <img
@@ -446,14 +576,38 @@
                     </div>
                   </div>
                 </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/vanphongcongchuc_lebaolong.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Lê long</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="project-desc">
+                    <div class="project-img hover_sang2">
+                      <img
+                        src="assets/img/menu/thuongmaidientu_cungduckhoa.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="project-htitle">
+                      <h3>Cung Đức Khoa</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Menu Section -->
 
-      <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
@@ -617,8 +771,6 @@
           </div>
         </div>
       </section>
-
-      <!-- ======= Chefs Section ======= -->
       <!-- <section id="chefs" class="chefs section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
@@ -720,8 +872,6 @@
           </div>
         </div>
       </section> -->
-
-      <!-- ======= Book A Table Section ======= -->
       <section id="lien-he" class="book-a-table">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
@@ -844,13 +994,10 @@
                 </div>
               </form>
             </div>
-            <!-- End Reservation Form -->
           </div>
         </div>
       </section>
-      <!-- End Book A Table Section -->
 
-      <!-- ======= Gallery Section ======= -->
       <section id="gallery" class="gallery section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
@@ -865,6 +1012,8 @@
                   class="glightbox"
                   data-gallery="images-gallery"
                   href="assets/img/gallery/gallery-1.jpg"
+                  width="200"
+                  height="200"
                   ><img
                     src="assets/img/gallery/gallery-1.jpg"
                     class="img-fluid"
@@ -876,6 +1025,8 @@
                   class="glightbox"
                   data-gallery="images-gallery"
                   href="assets/img/gallery/gallery-2.jpg"
+                  width="200"
+                  height="200"
                   ><img
                     src="assets/img/gallery/gallery-2.jpg"
                     class="img-fluid"
@@ -887,6 +1038,8 @@
                   class="glightbox"
                   data-gallery="images-gallery"
                   href="assets/img/gallery/gallery-3.jpg"
+                  width="200"
+                  height="200"
                   ><img
                     src="assets/img/gallery/gallery-3.jpg"
                     class="img-fluid"
@@ -898,6 +1051,8 @@
                   class="glightbox"
                   data-gallery="images-gallery"
                   href="assets/img/gallery/gallery-4.jpg"
+                  width="200"
+                  height="200"
                   ><img
                     src="assets/img/gallery/gallery-4.jpg"
                     class="img-fluid"
@@ -907,6 +1062,8 @@
               <div class="swiper-slide">
                 <a
                   class="glightbox"
+                  width="200"
+                  height="200"
                   data-gallery="images-gallery"
                   href="assets/img/gallery/gallery-5.jpg"
                   ><img
@@ -917,6 +1074,8 @@
               </div>
               <div class="swiper-slide">
                 <a
+                  width="200"
+                  height="200"
                   class="glightbox"
                   data-gallery="images-gallery"
                   href="assets/img/gallery/gallery-6.jpg"
@@ -928,6 +1087,8 @@
               </div>
               <div class="swiper-slide">
                 <a
+                  width="200"
+                  height="200"
                   class="glightbox"
                   data-gallery="images-gallery"
                   href="assets/img/gallery/gallery-7.jpg"
@@ -942,6 +1103,8 @@
                   class="glightbox"
                   data-gallery="images-gallery"
                   href="assets/img/gallery/gallery-8.jpg"
+                  width="200"
+                  height="200"
                   ><img
                     src="assets/img/gallery/gallery-8.jpg"
                     class="img-fluid"
@@ -953,9 +1116,7 @@
           </div>
         </div>
       </section>
-      <!-- End Gallery Section -->
 
-      <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
@@ -1085,7 +1246,7 @@
         </div>
       </section>
     </main>
-    <!-- ======= Footer ======= -->
+
     <footer id="footer" class="footer">
       <div class="container">
         <div class="row gy-3">
@@ -1148,16 +1309,12 @@
       ><i class="bi bi-arrow-up-short"></i
     ></a>
     <div id="preloader"></div>
-
-    <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
